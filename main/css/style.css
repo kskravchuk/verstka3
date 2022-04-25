@@ -1,0 +1,886 @@
+.body {
+
+    width: 100%;
+    background-size: 100%;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+/*header*/
+.header1{
+    width: 100%;    
+    display: flex;
+    top:0;
+    position: sticky;
+    background-color: #111111;
+    height: 95px;
+}
+
+
+.header__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    margin-top: -10px;
+    margin-left: -60px;
+}
+
+.logo2 {
+   width: 125px;
+   height: 125px;
+}
+
+.text_menu {
+    font-family: 'Recursive', sans-serif;  
+    font-size: 14px;
+    font-weight: 400;
+    width: 280px;
+    height: 34px;
+    color: #fff;
+    margin-bottom: 33px;
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    font-size: 18px;
+    z-index: 1000;
+    font-family: 'Recursive', sans-serif;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.menu__link {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 4px solid transparent;
+    padding-bottom: 5px;
+    transition: .3s linear;
+ }
+
+ .menu__link:hover {
+    border-bottom: 4px solid #6C63FF;
+ }
+
+ .menu__link.active {
+    border-bottom: 4px solid #6C63FF;
+ }
+
+ /*ГЛАВНАЯ*/
+ 
+.right_klyaksa{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.left_klyaksa{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 330;
+    z-index: 1;
+    }
+
+.macbook_and_text {
+    padding-top: 120px;
+}
+.macbook{
+margin-right: 40px;
+margin-top: -23px;
+}
+.container{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.macbook_text{
+    margin-left: 150px;
+}
+.macbook_text_big{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700px;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+.macbook_text_mini{
+    font-family: 'Recursive',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+.main_sign1 {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 45px;
+    background-color: #6C63FF;
+    width: 277px;
+    height: 60px;
+    border-radius: 30px;
+    }
+    
+.text_knopka_main {
+        padding-top: 17px;
+        font-family: 'Recursive', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+.main_sign1:hover { 
+    background-color: #3b32eb;
+    transition: .3s;
+    }
+.macbook_and_text{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.line1 {
+    margin-top: 170px;
+}
+
+/*МЕСТА РАБОТЫ*/
+.block_workplace{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+.image_workplace{
+    margin-right: 58px;
+    width: 620px;
+    height: 457px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    .text_workplace{
+      color: #FFFFFF;
+      text-align: left;
+      margin-top: 138px;
+      display: flex;
+    }
+    
+    .texts_workplaces {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title{
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700px;
+      font-size: 40px;
+      width: 320px;
+      height: 80px;
+    }
+    .undertitle{
+      text-indent: 20px;
+      font-family: 'Recursive', sans-serif;
+      font-size: 18px;
+      margin-top: 45px;
+      width: 450px;
+      height: 242px;
+    }
+
+    .title2{
+        text-indent: 20px;
+        font-family: 'Recursive', sans-serif;
+        font-size: 18px;
+        width: 450px;
+        margin-top: -120px;
+      }
+
+
+    .workplaces_sign1 {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        margin-top: 25px;
+        background-color: #6C63FF;
+        width: 277px;
+        height: 60px;
+        border-radius: 30px;
+        }
+        
+    .text_knopka_workplaces {
+            padding-top: 17px;
+            font-family: 'Recursive', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        
+    .workplaces_sign1:hover { 
+        background-color: #3b32eb;
+        transition: .3s;
+        }
+   
+    .left_circle_workplace{
+      position: absolute;
+      left: -100;
+      top: 1270;
+      z-index: -1;
+    }
+    .lines_under_workplace{
+      margin-top: 200px;
+    }
+
+/*ВОСПОМИНАНИЯ ВЫПУСКНИКОВ*/
+.bloсk_HOMEPAGE_memories {
+    margin: 50;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.texts_memories {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 130px;
+}
+
+
+.text1_memories {
+    font-family: 'Cormorant Garamond';
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.text2_memories {
+    text-indent: 20px;
+    color: #fff;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 493px;
+    margin-top: -5px;
+}
+
+.text3_memories {
+    text-indent: 20px;
+    color: #fff;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 493px;
+}
+
+ 
+.menu_sign1 {
+display: inline-block;
+text-decoration: none;
+color: #fff;
+text-align: center;
+margin-top: 25px;
+background-color: #6C63FF;
+width: 277px;
+height: 60px;
+border-radius: 30px;
+}
+
+.text_knopka {
+    padding-top: 17px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu_sign1:hover { 
+background-color: #3b32eb;
+transition: .3s;
+}
+
+.photo_memories {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.photo_memory {
+    width: 620px;
+    height: 457px;
+}
+
+.klyaksa3 {
+    position: absolute;
+    top: 2100;
+    right: 0;
+    z-index: -1;
+}
+
+.line2 {
+    margin-top: 50px;
+}
+
+/*ИГРА/ТЕСТ*/
+
+.block_test_game{
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  .title_test{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700px;
+    font-size: 30px;
+    margin-left: 16px;
+  }
+  .undertitle_game {
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    width: 300px;
+    }
+.undertitle_test {
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    width: 211px;
+    }
+
+.rectangles_test_game{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .rectangle_test{
+    
+    display: flex;
+    background: url(../css/images_game_test/frame.png);
+    width: 437px;
+    height: 573px;
+    justify-content: center;
+    background-repeat: no-repeat
+  }
+  .rectangle_game{
+    
+    display: flex;
+    background: url(../css/images_game_test/frame.png);
+    height: 573px;
+    width: 437px;
+    justify-content: center;
+    background-repeat: no-repeat
+  }
+  
+  .text_card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+  .image_card{
+    margin-top: 40px;
+    width: 351px;
+    height: 191px;
+  }
+  .game_test_sign1 {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #6C63FF;
+    width: 277px;
+    height: 60px;
+    border-radius: 30px;
+    }
+    
+    .text_knopka_game_test {
+        padding-top: 17px;
+        font-family: 'Recursive', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .game_test_sign1:hover { 
+    background-color: #3b32eb;
+
+    transition: .3s;
+  }
+  .game_test_sign2{
+    margin-left: 85px;
+  }
+  .text_knopka2_game_test{
+    padding-top: 21px;
+  }
+  .lines_under_test{
+    margin-top: 100px;
+  }
+  .left_circle_test{
+    position: absolute;
+    left: -120;
+    top: 2950px;
+    z-index: -1;
+  }
+
+  /*КОНТАКТЫ*/
+  .text1_contacts {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.icons1, .icons2, .icons3,.icons4, .icons5, .icons6 {
+    display: flex;
+    align-items: center;
+} 
+
+.text2_contacts, .text3_contacts, .text4_contacts, .text5_contacts, .text6_contacts {
+    
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 50px;
+    
+}
+
+
+.text3_contacts:hover {
+    color: #3b32eb;
+    transition: .3s;
+}
+
+.text4_contacts:hover {
+    color: #3b32eb;
+    transition: .3s;
+}
+
+.text5_contacts:hover {
+    color: #3b32eb;
+    transition: .3s;
+}
+
+.text6_contacts:hover {
+    color: #3b32eb;
+    transition: .3s;
+}
+
+
+.icons_contacts {
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+
+.contacts__link {
+    text-decoration: none;
+}
+
+
+.HOMEPAGE_CONTACTS1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-top: -40px;
+ 
+}
+
+.map {
+    margin-left: 135px;
+    margin-top: 80px;
+}
+
+.klyaksa1 {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 3570;
+}
+
+.klyaksa2 {
+    position: absolute;
+    left: 0;
+    top: 3970;
+    z-index: -1;
+}
+
+/*footer*/
+.footer{
+    width: 100%;    
+    display: flex;
+    top:80;
+    
+    }
+    
+    .line {
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        margin-top: 180px;
+    }
+    
+    .general {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    
+    .text1, .text2, .text3 {
+        font-family: 'Recursive', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        color: #fff;
+        padding-top: 20px;
+        border-bottom: solid 2px #6C63FF;
+        
+    }
+    
+    .text_information {
+        font-family: 'Recursive', sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        color: #BAAEAE;
+        width: 359px;
+        text-align: left;
+    }
+    
+    .icons1_footer {
+        margin-top: 40px;
+    }
+
+    .icon1_inst {
+        width: 33px;
+        height: 33px;
+    }
+    .icon2_vk {
+    margin-left: 20px;
+    }
+    
+    .icons_3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+
+    .icons_4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+
+    .icons_5 {
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+    
+    .text_locat, .text_tel, .text_mail {
+    margin-left: 20px;
+    
+    font-family: 'Recursive', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #BAAEAE;
+    }
+    
+    .icons_4, .icons_5 {
+        margin-top: 40px;
+    }
+    
+    .useful_links {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        line-height: 8px;
+    }
+    
+    .footer__link {
+    font-family: 'Recursive', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #BAAEAE;
+    text-decoration: none;
+    margin-top: -7px;
+    }
+    
+    .footer__link:hover {
+        color: #3b32eb;
+        transition: .3s;
+    }
+    
+    .texts_footer_down {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-right: 300px;
+        margin-top: 80px;
+        }
+        
+    .text1_footer_down, .text2_footer_down, .text3_footer_down {
+        font-family: 'Recursive', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #BAAEAE;
+        }
+        
+    .text2_footer_down {
+        text-decoration: underline;
+        margin-top: 13px;
+        }
+        
+.text3_footer_down {
+    text-decoration: underline;
+    margin-left: 450px;
+    margin-top: -45px;
+}
+        
+.logo_footer {
+        margin-top: -130px;
+        float: right;
+}
+
+.svyaz {
+    display: flex;
+    flex-direction: column;
+}
+
+
+ @media (max-device-width: 992px){
+.blok_main_page {
+    margin-left: -50px;
+}
+
+.macbook_text_big {
+    font-size: 38px;
+}
+.macbook_text_mini {
+    font-size: 15px;
+}
+
+.main_sign1 {
+    width: 240px;
+    height: 50px;
+}
+
+.text_knopka_main {
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+.macbook {
+    width: 500px;
+    height: 660px;
+   margin-top: -70px;
+}
+
+
+
+.line1 {
+    margin-top: -50px;
+}
+
+.image_workplace {
+    width: 450px;
+    height: 330px;
+    margin-left: 50px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.undertitle {
+    font-size: 13px !important;
+    margin-top: 10px;
+
+}
+
+.title2{
+    font-size: 15px !important;
+    margin-top: -160px;
+    width: 440px;
+    
+}
+.workplaces_sign1 {
+    width: 240px;
+    height: 50px;
+}
+
+.text_knopka_workplaces {
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+.texts_memories {
+    margin-left: 30px;
+}
+
+.text1_memories {
+    font-size: 30px;
+}
+
+.text2_memories {
+    font-size: 15px !important; 
+    
+}
+
+.text3_memories {
+    font-size: 15px !important; 
+    
+}
+
+.menu_sign1 {
+    width: 240px;
+    height: 50px;
+}
+
+.text_knopka {
+    font-size: 15px;
+    margin-top: -3px; 
+}
+
+.photo_memory {
+    width: 450px;
+    height: 330px;
+   margin-left: -100px;
+}
+
+.rectangle_game {
+    width: 48%;
+}
+
+.HOMEPAGE_CONTACTS1 {
+    margin-left: -30px;
+}
+
+.map {
+  
+    width: 440px;
+    height: 330px;
+    margin-left: 40px;
+    margin-top: 110px;
+}
+
+.text2_contacts {
+    font-size: 16x;
+}
+
+.contacts__link {
+    font-size: 16px;
+    width: 375px;
+}
+
+.icons_contacts {
+line-height: 1;
+}
+
+.text1_contacts {
+    align-items: center;
+}
+
+.o_nas {
+width: 250px;
+}
+
+.svyaz {
+    width: 330px;
+    margin-top: -3px;
+    margin-left: 65px;
+}
+}
+
+@media only screen and (max-device-width: 660px){
+
+.texts_memories {
+    margin-left: 30px;
+}
+
+.text1_memories {
+    font-size: 30px;
+}
+
+.text2_memories {
+    font-size: 11px; 
+    width: 460px;
+    
+}
+
+.text3_memories {
+    font-size: 11px; 
+    width: 460px;
+    
+}
+
+.menu_sign1 {
+    width: 240px;
+    height: 50px;
+}
+
+.text_knopka {
+    font-size: 15px;
+    margin-top: -3px; 
+}
+
+.photo_memory {
+    width: 450px;
+    height: 330px;
+     margin-left: -65px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+}
+
+@media only screen and (max-device-width: 1000px) {
+.macbook {
+    width: 500px;
+    height: 660px;
+    margin-top: -70px;
+    margin-left: -20px;
+    }   
+}
+
+@media (max-device-width: 1230px) {
+.macbook {
+    margin-left: -10px;
+}
+
+.container {
+    margin-left: -20px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.bloсk_HOMEPAGE_memories {
+    margin-left: -100px;
+}
+
+.photo_memory {
+    margin-left: -50px;
+}
+}
